@@ -5,6 +5,7 @@ body{
     height: 1400px;
 
     grid-template: 0.5fr 1fr 2.5fr / 1fr 2fr;
+
 }
 
 header{
@@ -31,6 +32,7 @@ h2 {
 table {
     width: 600px;
     border: 1px solid black;
+    margin: 0 auto;
 }
 
 tr, td{

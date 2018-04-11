@@ -1,6 +1,7 @@
 class Weather{
 
-    constructor(temperature, humidity, cloudness, rain, description, icon){
+   constructor(temperature, humidity, cloudness, rain, description, icon){
+    //constructor(){
       this._temperature = temperature;
       this._humidity = humidity;
       this._cloudness = cloudness;
@@ -36,27 +37,27 @@ class Weather{
 
     // GETTERS
     get temperature(){
-      return this._temperature;
+       return this._temperature;
     }
 
     get humidity(){
-        return this.humidity;
+       return this._humidity;
     }
 
     get cloudness(){
-        return this.cloudness;
+       return this._cloudness;
     }
 
     get rain(){
-        return this.rain;
+       return this._rain;
     }
 
     get description(){
-        return this.description;
+       return this._description;
     }
 
     get icon(){
-        return this.icon;
+       return this._icon;
     }
 
 };

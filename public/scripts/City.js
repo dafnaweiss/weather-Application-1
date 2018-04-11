@@ -80,8 +80,6 @@ class City{
                 mapData.circleMarkerColor = 'red';
                 break;
         };
-
-        console.log(`City ${this._cityName} Class: mapData: coords = [${mapData.coords[0]}, ${mapData.coords[0]}]`);
         return mapData;
     }
 
